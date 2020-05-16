@@ -115,3 +115,12 @@ powercfg -h off
     *  C: Custom size: 4096, 4096
 *  Set => OK
 *  Restart
+
+# Update windows
+*  Clear temp files: %UserProfile%/AppData/Local/Temp
+*  Start Task Manager
+*  Connect wifi
+*  Open Settings => Update & Security
+*  Advanced Options => Receive updates for other Microsoft product: On
+*  Delivery Optimization: Off
+*  Check for update
