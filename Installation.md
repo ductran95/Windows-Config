@@ -39,3 +39,32 @@
 *  1-Network_Driver_PX8MM_WN64_1.0.0_A00.zip
 *  1-Dell-Touchpad-Driver_86M99_WIN_10.3201.101.212_A07.zip
 *  Restart
+
+# Config Power Option
+*  Open Control Panel => Power Options
+*  Choose what closing the lid
+    *  power: sleep
+    *  sleep: sleep
+    *  close lid: Do nothing
+*  Balaced => Change plan setting
+    *  Turn off: 30 min
+    *  Sleep: never
+*  Change advanced setting
+    *  Turn off hard disk: 0
+    *  Wireless Adapter Setting: Medium power save, Maximun performance
+    *  USB setting: Disabled
+    *  Intel Graphic: Balanced, Maximun performance
+    *  PCI Express: Off
+    *  Processor power => Minimum process state: 5%
+    *  Processor power => System colling: Passive, Active
+    *  Processor power => Maximum process state: 100%
+    *  Multimedia => Sharing media: Allow sleep, Prevent sleep
+    *  Multimedia => Video Playback: power-saving, performance
+    *  Multimedia => Play video: balanced, video quality
+    *  Battery => Critical battery notify: On
+    *  Battery => Critical battery action: Shutdown
+    *  Battery => Low battery level: 10%
+    *  Battery => Critical battery level: 5%
+    *  Battery => Low battery notify: On
+    *  Battery => Low battery action: Nothing
+    *  Battery => Reserved battery level: 7%
