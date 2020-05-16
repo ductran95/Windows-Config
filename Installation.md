@@ -17,15 +17,15 @@
 *  Open Control Panel
 *  View: Large Icons
 *  User Accounts => Change User Accounts Control Setting
-*  Never Notify
+    *  Never Notify
 
 # Config File Explorer setting
 *  Open File Explorer
 *  File => Change folder and search options => View
-*  Show hidden file, folder and drive
-*  Untick Hide empty drive
-*  Untick Hide extension
-*  Untick Hide folder merge conflict
+    *  Show hidden file, folder and drive
+    *  Untick Hide empty drive
+    *  Untick Hide extension
+    *  Untick Hide folder merge conflict
 
 # Install Drivers
 *  1-Chipset_Driver_GH5T3_WN32_10.1.1.18_A04_01.zip
