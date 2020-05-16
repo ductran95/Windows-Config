@@ -68,3 +68,50 @@
     *  Battery => Low battery notify: On
     *  Battery => Low battery action: Nothing
     *  Battery => Reserved battery level: 7%
+
+# Config Sync
+*  Win+R: gpedit.msc
+*  Computer Configuration => Admin Template => Windows Components => Sync your setting
+*  Enabled all options
+
+# Delete Windows SR
+*  Open Control Panel => System => Advanced system settings => System Protection
+*  Configure => Delete
+
+# Config Service
+*  Win+R: services.msc
+*  Disable:
+    *  Microsoft Software Shadow Copy
+    *  Optimize drive
+    *  Sysmain
+    *  Volumn Shadow Copy
+
+# Config Task Schedule
+*  Win+R: taskschd.msc
+*  Microsoft => Windows
+*  Disable:
+    *  Application Experience
+    *  Application Data
+    *  CloudExperienceHost
+    *  Customer Experience Improvement Program
+    *  Defrag
+    *  DiskCleanup
+    *  SystemRestore
+
+# Config Display Scale
+*  Open Settings => System
+*  Scale and layout: 100%
+
+# Config Hibernate file
+*  Open cmd as admin
+```bash
+powercfg -h off
+```
+
+# Config Page file
+*  Open Control Panel => System => Advanced system settings => Performance => Setting
+*  Advanced => Virtual memery => Change
+    *  Automatical manage: untick
+    *  C: Custom size: 4096, 4096
+*  Set => OK
+*  Restart
