@@ -123,4 +123,14 @@ powercfg -h off
 *  Open Settings => Update & Security
 *  Advanced Options => Receive updates for other Microsoft product: On
 *  Delivery Optimization: Off
-*  Check for update
+*  Check for updat
+*  Install Samsung Magicia
+*  Restart
+
+# Active Window
+*  Enter key
+*  Customize
+   *  System sound
+   *  System notification
+   *  Time and Language
+   *  Privacy
