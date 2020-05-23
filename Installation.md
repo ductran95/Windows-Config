@@ -124,13 +124,32 @@ powercfg -h off
 *  Advanced Options => Receive updates for other Microsoft product: On
 *  Delivery Optimization: Off
 *  Check for updat
-*  Install Samsung Magicia
+*  Install Samsung Magician
 *  Restart
 
 # Active Window
-*  Enter key
-*  Customize
-   *  System sound
-   *  System notification
-   *  Time and Language
-   *  Privacy
+*  Enter key: XGVPP-NMH47-7TTHJ-W3FW7-8HV2C
+*  Customize Setting
+    *  System Sound
+    *  System Notification
+    *  Time and Language
+    *  Privacy
+*  Update MS Store
+*  Install new MS Edge
+
+# Install Office 2019
+*  en_office_professional_plus_2019_x86_x64_dvd_7ea28c99 => setup64
+*  setuplanguagepack.x64.zh-cn_.exe
+*  setuplanguagepack.x64.vi-vn_.exe
+*  Active
+
+# Install SQL Server 2019
+*  en_sql_server_2019_enterprise_x64_dvd_46f0ba38.iso
+*  SQLServer2019-KB4548597-x64.exe
+*  SSMS-Setup-ENU.exe
+*  Setting SQL service => Manual
+
+# Install IIS, .Net Framework 3.5
+*  Turn on feature
+*  Add .Net Framework 3.5, IIS
+*  Remove IE11
