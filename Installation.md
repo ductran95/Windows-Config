@@ -153,3 +153,15 @@ powercfg -h off
 *  Turn on feature
 *  Add .Net Framework 3.5, IIS
 *  Remove IE11
+
+# Install Visual Studio
+*  vs_Enterprise.exe
+*  JetBrains.ReSharperUltimate.2020.1.3.exe
+
+# Install Apps
+
+# Login and sync OneDrive
+
+# Customize Taskbar
+
+# Delete temp file
