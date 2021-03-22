@@ -1,5 +1,13 @@
 # Windows 10 installation for Lenovo Legion 5
 
+# Disk partitions
+* Disk 1: 238GB
+  * Windows: 175GB
+  * Works: 63GB
+* Disk 2: 476GB
+  * Arch-linux: 75GB
+  * Entertainment: 400GB
+
 # Create Installation USB
 *  en_windows_10_business_editions_version_20h2_updated_jan_2021_x64_dvd_533a330d.iso
 *  Rufus: GPT-UEFI-NTFS
