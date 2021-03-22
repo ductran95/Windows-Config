@@ -1,4 +1,4 @@
-# Windows 10 installation for Lenovo Legion 5
+# My Windows 10 installation
 
 # Create Installation USB
 *  en_windows_10_business_editions_version_20h2_updated_jan_2021_x64_dvd_533a330d.iso
@@ -26,6 +26,20 @@
     *  Untick Hide empty drive
     *  Untick Hide extension
     *  Untick Hide folder merge conflict
+
+# Install Drivers
+*  1-Chipset_Driver_GH5T3_WN32_10.1.1.18_A04_01.zip
+*  1-Intel-Management-Engine-Components-Installer_C3VMM_WIN_11.0.6.1194_A02.zip
+*  1-Chipset_Driver_CP3V3_WN32_4.10.67_A00.zip
+*  win64_15.33.50.5129.zip
+*  392.59-quadro-desktop-notebook-win10-64bit-international-whql.exe
+*  PROWinx64.exe
+*  WiFi_21.10.1_PROSet64_Win10.exe
+*  BT_21.10.1_64_Win10.exe
+*  1-Network_Driver_PX8MM_WN64_1.0.0_A00.zip
+*  1-Dell-Touchpad-Driver_86M99_WIN_10.3201.101.212_A07.zip
+*  Restart
+
 # Config Power Option
 *  Open Control Panel => Power Options
 *  Choose what closing the lid
@@ -101,10 +115,6 @@ powercfg -h off
     *  C: Custom size: 4096, 4096
 *  Set => OK
 *  Restart
-
-# Install Drivers
-* MS Store => Lenovo vantage
-* Update driver
 
 # Update windows
 *  Clear temp files: %UserProfile%/AppData/Local/Temp
