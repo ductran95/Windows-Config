@@ -13,7 +13,7 @@
 *  Rufus: GPT-UEFI-NTFS
 
 # Install Windows
-*  F12 => USB
+*  F1 + F2 => USB
 *  Language: English, Format: English, Keyboard: US
 *  Skip enter key
 *  Custom: Install windows only
@@ -34,6 +34,7 @@
     *  Untick Hide empty drive
     *  Untick Hide extension
     *  Untick Hide folder merge conflict
+
 # Config Power Option
 *  Open Control Panel => Power Options
 *  Choose what closing the lid
@@ -47,7 +48,6 @@
     *  Turn off hard disk: 0
     *  Wireless Adapter Setting: Medium power save, Maximun performance
     *  USB setting: Disabled
-    *  Intel Graphic: Balanced, Maximun performance
     *  PCI Express: Off
     *  Processor power => Minimum process state: 5%
     *  Processor power => System colling: Passive, Active
@@ -106,11 +106,12 @@ powercfg -h off
 *  Open Control Panel => System => Advanced system settings => Performance => Setting
 *  Advanced => Virtual memery => Change
     *  Automatical manage: untick
-    *  C: Custom size: 4096, 4096
+    *  C: Custom size: 8192, 8192
 *  Set => OK
 *  Restart
 
 # Install Drivers
+* Update MS Store
 * MS Store => Lenovo vantage
 * Update driver
 
@@ -131,9 +132,8 @@ powercfg -h off
     *  System Sound
     *  System Notification
     *  Time and Language
+    *  Personalization
     *  Privacy
-*  Update MS Store
-*  Install new MS Edge
 
 # Install Office 2019
 *  en_office_professional_plus_2019_x86_x64_dvd_7ea28c99 => setup64
@@ -157,7 +157,9 @@ powercfg -h off
 *  Open powershell as admin
 * Run Get-ExecutionPolicy. If it returns Restricted, then run:
 ```bash
-Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy AllSigned
+or
+Set-ExecutionPolicy Bypass -Scope Process
 ```
 * Run
 ```bash
@@ -168,27 +170,24 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * choco install chocolateygui
 
 # Install SDK & Development Environment
-* choco install sql-server-2019-cumulative-update
 * choco install sql-server-management-studio
 * choco install postgresql
 * choco install git
 * choco install mingw
-* choco install codeblocks
 * choco install openjdk
-* choco install nodejs.install (or use nvm for targeting multiple version)
+* choco install nvm (or use nodejs.installfor latest version)
+* nvm install latest
+* nvm install 14.16
 * choco install python
 * choco install golang
 * choco install dotnet-sdk (.NET 5)
-* choco install dotnet-runtime
-* choco install dotnet-aspnetruntime
 * choco install dotnetcore-sdk (.NET Core 3.1)
-* choco install dotnetcore-runtime
-* choco install dotnetcore-aspnetruntime
+* choco install codeblocks
 * choco install sourcetree
 * choco install notepadplusplus
 * choco install vscode
-* choco install resharper
-* choco install webstorm
+* choco install dotultimate --params "'/PerMachine'"
+* choco install webstorm --params "/InstallDir:C:\Program Files"
 * choco install postman
 
 # Install Desktop util
@@ -221,6 +220,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * idman638build18f.exe + I.D.M.6P9tch.V21.rar
 
 # Install Media Player
+* choco install asio4all
 * choco install foobar2000
 * DarkOne310build20140207.exe 
 * copy ProgramComponent => Program File (x86)/foobar2000/components
@@ -228,7 +228,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * choco install k-litecodecpackmega
 
 # Install Media Editor
-* dMC-R17.2-Ref-Registered.exe
+* dMC-R17.3-Ref-Registered.exe
 * choco install subtitleedit
 
 # Install System util
@@ -242,18 +242,25 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * choco install hashtab
 * choco install hwinfo
 * choco install hwmonitor
+* choco install msiafterburner
 * choco install hxd
 * choco install latencymon
-* choco install logitechgaming
+* choco install logitechgaming (optional)
+* Logitech G Hub
 * choco install mediatab
 * choco install rufus
 * choco install spek
 * choco install stellarium
 * choco install winrar
 * choco install unikey
+* choco install steam-client
 
 # Login and sync OneDrive
 
 # Customize Taskbar
 
 # Delete temp file
+
+# Add ICC profile
+* B156HAN09.2 #1 2021-03-18 11-33 D6500 2.2 F-S XYZLUT+MTX.icm
+* B156HAN09.2 #1 2021-03-26 20-14 D6500 2.2 F-S XYZLUT+MTX.icm
